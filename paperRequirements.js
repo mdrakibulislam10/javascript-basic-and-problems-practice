@@ -11,5 +11,5 @@ function paperRequirements(firstBookQuantity, secondBookQuantity, thirdBookQuant
     return totalPagesRequired;
 };
 
-const totalPages = paperRequirements(5, 3, 2);
+const totalPages = paperRequirements(5, 3, 3);
 console.log(totalPages);
