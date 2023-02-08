@@ -33,6 +33,6 @@ function publicBusFare(travelers) {
     return restTravelersPublicBusFare;
 };
 
-const travelers = 55;
+const travelers = 112;
 const publicBusTicketFare = publicBusFare(travelers);
 console.log("public bus fare for rest travelers:", publicBusTicketFare);
